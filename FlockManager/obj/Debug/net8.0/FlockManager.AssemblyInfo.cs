@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FlockManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5aa1e8855d7608b8f6600ba511e01bb29c851d4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31a0833aca742d356ecf97b5b550caf016c72752")]
 [assembly: System.Reflection.AssemblyProductAttribute("FlockManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FlockManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

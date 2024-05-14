@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\grayh\\NETCoreApps\\FlockManager\\FlockManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{183E4C84-090C-44F6-ADBC-2C237EDD4DD6}|FlockManager.csproj|c:\\users\\grayh\\netcoreapps\\flockmanager\\flockmanager\\models\\milkoutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{183E4C84-090C-44F6-ADBC-2C237EDD4DD6}|FlockManager.csproj|solutionrelative:models\\milkoutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{183E4C84-090C-44F6-ADBC-2C237EDD4DD6}|FlockManager.csproj|c:\\users\\grayh\\netcoreapps\\flockmanager\\flockmanager\\models\\familytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{183E4C84-090C-44F6-ADBC-2C237EDD4DD6}|FlockManager.csproj|solutionrelative:models\\familytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{183E4C84-090C-44F6-ADBC-2C237EDD4DD6}|FlockManager.csproj|c:\\users\\grayh\\netcoreapps\\flockmanager\\flockmanager\\models\\sheep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{183E4C84-090C-44F6-ADBC-2C237EDD4DD6}|FlockManager.csproj|solutionrelative:models\\sheep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{183E4C84-090C-44F6-ADBC-2C237EDD4DD6}|FlockManager.csproj|c:\\users\\grayh\\netcoreapps\\flockmanager\\flockmanager\\models\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{183E4C84-090C-44F6-ADBC-2C237EDD4DD6}|FlockManager.csproj|solutionrelative:models\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{183E4C84-090C-44F6-ADBC-2C237EDD4DD6}|FlockManager.csproj|c:\\users\\grayh\\netcoreapps\\flockmanager\\flockmanager\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{183E4C84-090C-44F6-ADBC-2C237EDD4DD6}|FlockManager.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{183E4C84-090C-44F6-ADBC-2C237EDD4DD6}|FlockManager.csproj|c:\\users\\grayh\\netcoreapps\\flockmanager\\flockmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{183E4C84-090C-44F6-ADBC-2C237EDD4DD6}|FlockManager.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MilkOutput.cs",
+              "DocumentMoniker": "C:\\Users\\grayh\\NETCoreApps\\FlockManager\\FlockManager\\Models\\MilkOutput.cs",
+              "RelativeDocumentMoniker": "Models\\MilkOutput.cs",
+              "ToolTip": "C:\\Users\\grayh\\NETCoreApps\\FlockManager\\FlockManager\\Models\\MilkOutput.cs",
+              "RelativeToolTip": "Models\\MilkOutput.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T14:02:34.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FamilyTree.cs",
+              "DocumentMoniker": "C:\\Users\\grayh\\NETCoreApps\\FlockManager\\FlockManager\\Models\\FamilyTree.cs",
+              "RelativeDocumentMoniker": "Models\\FamilyTree.cs",
+              "ToolTip": "C:\\Users\\grayh\\NETCoreApps\\FlockManager\\FlockManager\\Models\\FamilyTree.cs",
+              "RelativeToolTip": "Models\\FamilyTree.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T14:01:53.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Health.cs",
+              "DocumentMoniker": "C:\\Users\\grayh\\NETCoreApps\\FlockManager\\FlockManager\\Models\\Health.cs",
+              "RelativeDocumentMoniker": "Models\\Health.cs",
+              "ToolTip": "C:\\Users\\grayh\\NETCoreApps\\FlockManager\\FlockManager\\Models\\Health.cs",
+              "RelativeToolTip": "Models\\Health.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T13:57:12.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Sheep.cs",
+              "DocumentMoniker": "C:\\Users\\grayh\\NETCoreApps\\FlockManager\\FlockManager\\Models\\Sheep.cs",
+              "RelativeDocumentMoniker": "Models\\Sheep.cs",
+              "ToolTip": "C:\\Users\\grayh\\NETCoreApps\\FlockManager\\FlockManager\\Models\\Sheep.cs",
+              "RelativeToolTip": "Models\\Sheep.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T13:55:40.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\grayh\\NETCoreApps\\FlockManager\\FlockManager\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\grayh\\NETCoreApps\\FlockManager\\FlockManager\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T13:54:01.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\grayh\\NETCoreApps\\FlockManager\\FlockManager\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\grayh\\NETCoreApps\\FlockManager\\FlockManager\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T16:30:18.331Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
