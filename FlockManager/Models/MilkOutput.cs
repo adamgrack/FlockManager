@@ -1,7 +1,10 @@
-﻿namespace FlockManager.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace FlockManager.Models
 {
     public class MilkOutput
     {
+        [Key]
         public required int Id { get; set; }
 
         public DateOnly Date { get; set; }
