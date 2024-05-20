@@ -1,2 +1,8 @@
 
 FlockManager/.vs/*
+
+FlockManager/bin/Debug/net8.0/
+
+FlockManager/obj/Debug/net8.0/
+
+*.v2
