@@ -7,8 +7,9 @@ namespace FlockManager.Models
         [Key]
         public required int Id { get; set; }
 
+        public required char Sex { get; set; }
         public String? Name { get; set; }
 
-        public DateOnly BirthDate { get; set; }
+        public DateOnly? BirthDate { get; set; }
     }
 }
