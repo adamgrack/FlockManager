@@ -1,0 +1,50 @@
+﻿@model Sheep
+
+<form method="post">
+    <div class="border p-3 mt-4">
+        <div class-"row pb-2">
+            <h2 class="text-primary">Add Sheep</h2>
+            <hr/>
+        </div>
+        <div class="mb-3 row col-4 col-md-2">
+            <label>Farm Tag</label>
+            <input asp-for="FarmTag" type="text" class="form-control"/>
+        </div>
+        <div class="mb-3 row col-4 col-md-2">
+            <label>Scrapie Tag</label>
+            <input asp-for="ScrapieTag" type="text" class="form-control" />
+        </div>
+        <div class="mb-3 row col-4 col-md-2">
+            <label>Name</label>
+            <input asp-for="Name" type="text" class="form-control" />
+        </div>
+        <div class="mb-3 row col-sm-1 col-2">
+            <label>Sex</label>
+            <select asp-for="Sex" id="sex">
+                <option></option>
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+            </select>
+        </div>
+        <div class="mb-3 row col-md-2 col-4">
+            <label>Birth Date</label>
+            <input asp-for="BirthDate" type="date" class="form-control" />
+        </div>
+        <div class="mb-3 row col-4 col-md-2">
+            <label>Dam Tag</label>
+            <input asp-for="DamId" type="text" class="form-control" />
+        </div>
+        <div class="mb-3 row col-4 col-md-2">
+            <label>Sire Tag</label>
+            <input asp-for="SireId" type="text" class="form-control" />
+        </div>
+        <div class="row">
+            <div class="col-6 col-lg-2">
+                <button type="submit" class="btn btn-dark" style="width:150px">Add</button>
+            </div>
+            <div class="col-6 col-lg-2">
+                <a asp-controller="Sheep" asp-action="Index" class="btn btn-primary" style="width:150px">Back</a>
+            </div>
+        </div>
+    </div>
+</form>

@@ -16,5 +16,16 @@ namespace FlockManager.Controllers
             List<Sheep> objSheepList = _db.Sheep.ToList();
             return View(objSheepList);
         }
+
+        public IActionResult AddSheep() { 
+            return View();
+        }
+        [HttpPost]
+        public IActionResult AddSheep(Sheep sheep)
+        {
+            _db.Sheep.Add(sheep);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }

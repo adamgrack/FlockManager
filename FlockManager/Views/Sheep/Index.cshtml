@@ -1,11 +1,21 @@
 ﻿@model List<Sheep>
 
-<h1>Sheep List</h1>
+<div class="container">
+    <div class="row pt-4 pb-2">
+        <div class="col-6">
+            <h2 class="text-bg-primary">
+                Sheep
+            </h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="Sheep" asp-action="AddSheep" class="btn btn-primary"><i class="bi bi-clipboard2-plus"></i>Add Sheep</a>
+        </div>
+    </div>
 <table class="table table-bordered table-striped">
     <thead>
         <tr>
             <th>
-                Id
+                Farm Tag
             </th>
             <th>
                 Name
@@ -16,9 +26,10 @@
         @foreach (var obj in Model)
         {
             <tr>
-                <td>@obj.Id</td>
+                <td>@obj.FarmTag</td>
                 <td>@obj.Name</td>
             </tr>
         }
     </tbody>
 </table>
+</div>
