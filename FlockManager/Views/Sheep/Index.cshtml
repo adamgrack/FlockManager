@@ -20,6 +20,9 @@
             <th>
                 Name
             </th>
+            <th>
+                Info
+            </th>
         </tr>
     </thead>
     <tbody>
@@ -28,6 +31,7 @@
             <tr>
                 <td>@obj.FarmTag</td>
                 <td>@obj.Name</td>
+                <td><a asp-controller ="Sheep" asp-action="SheepInfo" asp-route-id="@obj.Id" class="btn btn-secondary">Info</a></td>
             </tr>
         }
     </tbody>

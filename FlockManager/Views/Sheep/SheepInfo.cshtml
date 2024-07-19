@@ -1,0 +1,35 @@
+﻿@model Sheep
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>
+                Farm Tag
+            </th>
+            <th>
+                Scrapie
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Dam
+            </th>
+            <th>
+                Birthday
+            </th>
+            
+        </tr>
+    </thead>
+    <tbody>
+
+            <tr>
+                <td>@Model.FarmTag</td>
+                <td>@Model.ScrapieTag</td>
+                <td>@Model.Name</td>
+                <td>@Model.DamId</td>
+                <td>@Model.BirthDate</td>
+            </tr>
+        
+    </tbody>
+</table>

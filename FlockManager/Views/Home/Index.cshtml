@@ -1,8 +1,20 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+@model Sheep
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <div class="search-container">
+        <form action="/action_page.php">
+            <select>
+                <option value="Farm Tag">Farm Tag</option>
+                <option value="Scrapie Tag">Scrapie Tag</option>
+                <option value="Dam Tag">Dam Tag</option>
+                <option value="Sire Tag">Sire Tag</option>
+                <option value="Birth Date">Birth Date</option>
+            </select>
+            <input type="search" placeholder="Search.." name="sheepSearch">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
 </div>

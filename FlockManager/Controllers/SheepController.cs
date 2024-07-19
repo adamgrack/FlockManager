@@ -27,5 +27,19 @@ namespace FlockManager.Controllers
             _db.SaveChanges();
             return RedirectToAction("Index");
         }
+
+        public IActionResult SheepInfo(int? id)
+        {
+            if (id == null || id == 0) 
+            {
+                return NotFound();
+            }
+            Sheep sheepFromDb = _db.Sheep.Find(id);
+            if(sheepFromDb == null)
+            {
+                return NotFound();
+            }
+            return View(sheepFromDb);
+        }
     }
 }
